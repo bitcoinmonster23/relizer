@@ -84,14 +84,14 @@ def parsing(url):
 
 🔊{data[4]}
 
-[🎬 Смотреть онлайн]({url})
-[👉 Все фильмы](http://f1.ikino.site/filmy/) | [👉 Все сериалы](http://f1.ikino.site/serialy/)'''
+[🎬 Фильмы в Telegram](https://t.me/filmy_1080)
+[👉 Все фильмы](http://w.ikino.site/filmy/) | [👉 Все сериалы](http://w.ikino.site/serialy/)'''
     else:
         text = f'''**🎬 [{data[0]} {data[1]}]({url_})**
 **🍿Жанр:** {categories(data[2])}
 
 🔊{data[4]}
 
-[🎬 Смотреть онлайн]({url})
-[👉 Все фильмы](http://f1.ikino.site/filmy/) | [👉 Все сериалы](http://f1.ikino.site/serialy/)'''
+[🎬 Фильмы в Telegram](https://t.me/filmy_1080)
+[👉 Все фильмы](http://w.ikino.site/filmy/) | [👉 Все сериалы](http://w.ikino.site/serialy/)'''
     return text, url
