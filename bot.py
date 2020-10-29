@@ -22,7 +22,7 @@ def post(client, message):
             text[0],
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton('🎥 Смотреть онлайн!', url=text[1]),
-                InlineKeyboardButton('🔎 Поиск фильмов!', url='http://w.ikino.site/index.php?do=search')
+                InlineKeyboardButton('🔎 Поиск фильмов!', url='https://t.me/searchikino_bot')
             ]]),
         )
 
