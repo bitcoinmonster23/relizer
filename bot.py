@@ -19,7 +19,7 @@ def post(client, message):
         text = custom_utils.parsing(url)
         client.send_message(
              'filmy',
-            ans[0],
+            text[0],
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('🎥 Смотреть онлайн!', url=ans[1])],
                 [InlineKeyboardButton('🔎 Поиск фильмов!', url='https://t.me/searchikino_bot')]
