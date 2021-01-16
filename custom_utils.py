@@ -86,6 +86,8 @@ def parsing(url):
 
 ➖➖➖➖➖➖➖➖➖
 [🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)
+➖➖➖➖➖➖➖➖➖
+[🎬 Синематик](https://t.me/cinematic_c)
 ➖➖➖➖➖➖➖➖➖'''
     else:
         text = f'''**🎬 [{data[0]} {data[1]}]({url_})**
@@ -95,5 +97,7 @@ def parsing(url):
 
 ➖➖➖➖➖➖➖➖➖
 [🎬 Фильмы в Telegram](https://t.me/joinchat/AAAAAEZFN2QP3nxwqJ-7Ng)
+➖➖➖➖➖➖➖➖➖
+[🎬 Синематик](https://t.me/cinematic_c)
 ➖➖➖➖➖➖➖➖➖'''
     return text, url
